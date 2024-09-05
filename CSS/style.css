@@ -1,0 +1,236 @@
+@import url('https://fonts.cdnfonts.com/css/gotham'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFADA;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    background: url(../images/Bg\ Image.jpg) no-repeat center top;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 23px;
+    color: #C08267;
+}
+.logo-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+}
+.header__logo{
+    margin-left: 85px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    font-family: 'gotham';
+    font-style: italic;
+}
+.header__logo:hover{
+    cursor: pointer;
+}
+.links-wrapper{
+    display: flex;
+}
+.nav__list{
+    list-style: none;
+    display: flex;
+}
+.nav__link{
+    color: white;
+    font-family: 'Poppins';
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.header__btn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    background-color: #A0583C;
+    border: 0;
+    width: 115px;
+    height: 36px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+.header__btn:hover{
+    cursor: pointer;
+}
+.buttons-wrapper{
+    display: flex;
+}
+.btn-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-intro{
+    color: #FFFADA;
+    height: 720px;
+    text-align: center;                  
+    background: url(../images/Bg\ Image.jpg) no-repeat center -57px;
+}
+.section-intro__title{
+    padding-top: 236px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 72px;
+    margin-bottom: 12px;
+}
+.section-intro__subtitle{
+    font-family: 'Roboto';
+    font-size: 24px;
+    margin-bottom: 36px;
+}
+.section-intro__btn{
+    width: 250px;
+    height: 55px;
+    color: #EFEFF5;
+    background: linear-gradient(90deg, #A0583C 0%, #C08267 100%);
+    border-radius: 18px;
+    border: 0;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+}
+.section-intro__btn:hover{
+    cursor: pointer;
+}
+.section-explore{
+    text-align: center;
+}
+.section-explore__title{
+    margin-top: -24px;
+    margin-bottom: 57px;
+}
+.product__cards{
+    display: flex;
+    justify-content: center;
+}
+.product__card{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #C08267;
+    margin-right: 41px;
+    padding: 17px 15px 27px 15px;
+    border-radius: 20px;
+    margin-bottom: 68px;
+}
+.product__card-image{
+    margin-bottom: 9px;
+    border-radius: 10px;
+}
+.product__card-title{
+    margin-bottom: 11px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 25px;
+    text-align: left;
+}
+.product__card-text{
+    text-align: left;
+    font-weight: 300;
+    font-family: 'Poppins';
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.product__card-price{
+    text-align: left;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 21px;
+}
+.product__card-price__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product__card-price__btn{
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background: #A0583C;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+}
+.section-partners__title{
+    margin-bottom: 7px;
+}
+.partners-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-partner__image{
+    margin-right: 43px;
+}
+footer{
+    padding-top: 37px;
+    height: 427px;
+    background-color: #C08267;
+}
+.footer__title{
+    color: #FFFADA;
+    margin-bottom: 32px;
+}
+.footer__items{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__item__title{
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white;
+}
+.footer__item{
+    color: white;
+    font-size: 21px;
+    font-family: 'Poppins';
+}
+.footer__item__text{
+    color: #FFFADA;
+}
+hr{
+    width: 1126px;
+    color: #FFFADA;
+    margin-top: 63px;;
+    margin-left: 77px;
+    margin-right: 77px;
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer-text__texts{
+    font-family: 'Poppins';
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+}
+.footer-text__text{
+    font-family: 'gotham';
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
